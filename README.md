@@ -1,2 +1,4 @@
 # RaspberryPI_AI_ImageDetection
-This is a project made for a school competition where the purpose was to create a special trash can that could detect the type of trash that was thrown into it with artificial inteligence.
+This is a project made for a school competition where the purpose was to create a special trash can that could detect the type of trash that was thrown into it with artificial inteligence. The project was built in Python and customized to detect a water bottle from other objects.
+This code is built to work exclusively with a Raspberry PI board with a camera attached and a Servo motor connected to the board direcly and certain Python modules alredy insalled, such as TensorFlow Lite (since the Raspberry doesn't posses enough RAM for the standard Tensorflow versions) and OpenCV, as well as many others.
+It works by opening a pop up window that shows what is being observed by the camera and what objects the AI has classified, as well as the FPS. Once the code has detected a water bottle, it activates the Servo motor and displays a QR code that was a part of the original idea for the project.
